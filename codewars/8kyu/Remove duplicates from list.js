@@ -19,5 +19,5 @@ function distinct(a) {
     return uniq;
   }
 
-  let array = [1,2,2,3,3,3,3,'A','B', 'B','C','C','C','C'];
+  let array = [1,2,2,3,3,3,3,'A','B', 'B','C','C'];
    console.log (distinct(array));
