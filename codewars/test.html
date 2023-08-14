@@ -6,25 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script> 
-    let myString = "";
+//     function sayHello(name, city, state ) {
+//     nameArray = name.split(' ');  
 
-function newArray (string) 
-    if (string === "") 
-        {return null}  else {
-            let toArray = array.from(string);
-            if (toArray.length < 3) {return null}
-            else {
-                toArray = toArray.splice(0,1);
-                toArray = toArray.splice(toArray.length-1,1);
-                toArray = toArray.join(' ');
-                return toArray
-                
-            }
-        }
-console.log (newArray(myString));
+//     let greeting = "Hello, " + nameArray[0] + " " + nameArray[1] + "! " +  "Welcome to " + city + ", " + state + "!";
+//     alert(greeting);Nick
+//     return greeting;
+// }
+// sayHello("Nick Litvin", "Kaliningrad", "Russia");
   
 
+function sayHello(name, city, state ) {
+    nameArray = name.split(' '); 
+    console.log (namearray);
 
+    let greeting = "Hello, " + nameArray[0] + " " + nameArray[1] + "! " +  "Welcome to " + city + ", " + state + "!";
+    
+    return greeting;
+}
+
+sayHello("1 2", "3", "4");
 
 
 </script>
