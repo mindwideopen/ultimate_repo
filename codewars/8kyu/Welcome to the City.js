@@ -12,12 +12,6 @@
 
 function sayHello(name, city, state ) {
        
-    let nameString = name.join(" ");
-    
-    
-    let greeting = "Hello, " + nameString + "!"  +  " Welcome to " + city + ", " + state + "!";
-    console.log(greeting);
-    return greeting;
+    return "Hello, " + name.join(" ") + "!"  +  " Welcome to " + city + ", " + state + "!";;
 }
 
-sayHello(["Себастьян", "Перейра", "торговец", "черным", "деревом"], "Клд", "Россия");
