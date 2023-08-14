@@ -8,21 +8,16 @@
 
 // SOLUTION
 
-// function sayHello(name, city, state ) {
-//     nameArray = []; 
-//     nameArray.push(prompt("Name"));
-//     nameArray.push(prompt("Lastname"));
 
-//     let greeting = "Hello, " + nameArray[0] + " " + nameArray[1] + "! " +  "Welcome to " + city + ", " + state + "!";
-//     console.log (sayHello);
-//     return greeting;
-// }
-// console.log(sayHello(1, 2, 3));
 
-function sayHello(name, city, state ) {   
+function sayHello(name, city, state ) {
+       
+    let nameString = name.join(" ");
     
     
-    return "Hello, " + name.join(" ") + "!"  +  " Welcome to " + city + ", " + state + "!";
+    let greeting = "Hello, " + nameString + "!"  +  " Welcome to " + city + ", " + state + "!";
+    console.log(greeting);
+    return greeting;
 }
 
-console.log(sayHello(["Себастьян", "Перейра", "торговец", "черным", "деревом"], "Клд", "Россия"));
+sayHello(["Себастьян", "Перейра", "торговец", "черным", "деревом"], "Клд", "Россия");
