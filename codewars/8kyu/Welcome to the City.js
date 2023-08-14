@@ -12,6 +12,7 @@
 
 function sayHello(name, city, state ) {
        
-    return "Hello, " + name.join(" ") + "!"  +  " Welcome to " + city + ", " + state + "!";;
+    return ("Hello, " + name.join(" ") + "!"  +  " Welcome to " + city + ", " + state + "!");
 }
 
+console.log(sayHello(["Себастьян","Перейра", "торговец", "черным", "деревом"], "Kld","Russia"));
