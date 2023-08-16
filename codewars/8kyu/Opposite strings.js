@@ -47,5 +47,6 @@ function isOpposite(s1,s2) {
 return true
 }
 }
+
 console.log(isOpposite(a,b));
 
