@@ -28,32 +28,19 @@
 
 
 
-let a = 235;
-
-function parameter(n) {
-    
+function parameter(n) {    
     let multiply = 1;
     let summ = 0;    
-    let arr = Array.from(String(n), Number)
-        
+    let arr = Array.from(String(n), Number)        
         for (let i=0; i<arr.length; i++) {
-            multiply = multiply * arr[i];
-            }
-            console.log("произведение " + String(multiply))
-
-        for (let i=0; i<arr.length; i++) {
+            multiply = multiply * arr[i]; }            
+            for (let i=0; i<arr.length; i++) {
             summ = summ + arr[i]
             }  
-            console.log("сумма " + String(summ))  
-        let gcd = (p1, p2) => {
-            
+               let gcd = (p1, p2) => {            
             return p2 == 0 ? p1 : gcd (p2, p1 % p2)};   
-        let gcd_result = gcd(summ, multiply);
-        
-        console.log("НОД " + String(gcd_result)) ; 
-        
-        return summ * multiply / gcd_result;
-         
+        let gcd_result = gcd(summ, multiply);        
+        return summ * multiply / gcd_result;        
        
     }
     
