@@ -8,7 +8,6 @@
 
 // SOLUTION 
 
-
 function breakChocolate(n,m) {
   
     if ( ( (n == 1) && (n==m) ) ){
