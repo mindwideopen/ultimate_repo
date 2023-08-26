@@ -32,10 +32,9 @@ let AmIAfraid = function(day, num) {
                  "Thursday":  d => d === 0,
                  "Friday":    d => d % 2 === 0,
                  "Saturday":  d => d == 56};
-    return match[day](num);
+    return match.day(num);
   }
 
 
-
-
+ 
 
